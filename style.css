@@ -5,7 +5,7 @@ body{
 }
 .main {
     background-image: url("assets/img/bg.jpg");
-    height: 95vh;
+    height: 100vh;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
     background-position: center center;
@@ -18,7 +18,7 @@ body{
 }
 
 .main .box {
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     opacity: 0.66;
     background-color: black;
@@ -32,7 +32,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     max-width: 80vw;
-    height: 62px;
+    height: 65px;
 }
 
 nav img {
@@ -114,6 +114,7 @@ nav button {
     font-size: 24px;
     font-weight:bold;
     color: white;
+    margin-top: 10px;
     margin-bottom: 25px;
 }
 .slider{
@@ -155,11 +156,9 @@ nav button {
     width: 100%;
     margin-left: 10vw;
     margin-right: 10vw;
-    border: 1px solid white;
   
 }
 .card2{
-    border: 1px solid white;
     height: 325px;
     width: 40vw;
     flex: 10px 10px 10px 10px;
@@ -188,4 +187,89 @@ nav button {
     position: relative;
     left: 100px;
     top:20px
+}
+.container3{
+    height: 650px;
+    max-width: 1250px;
+    width: 100%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  
+}
+.qn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 22px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+.question{
+    background-color: #2d2d2d;
+    width: 75vw;
+    margin:  10px auto;
+    
+}
+.question:hover{
+    background-color: #3d3d3d;
+    cursor: pointer;
+}
+.hero2{
+    width: 80vw;
+    margin-left: 10vw;
+    height: 150px;
+}
+.hero2 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 18px;
+}
+.hero2 .input{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#search input{
+    padding: 12px 15vw 12px 19px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: white;
+}
+#search button{
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+footer{
+   height: 650px;
+    width: 75vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-top: 70px;
+    font-family: 'Martel Sans', sans-serif;
+    height: 280px;
+}
+.foot-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.foot a,.call a{
+    color: rgb(255, 255, 255, 0.5);
+}
+#para{
+font-size: 0.8rem;
+padding-top: 20px;
+}
+#para a{
+    color: rgb(68, 142, 244);
 }
